@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-color:light blue;
+font-family:italic Handwriting;
+font-size:18px;
+color:pink;
+}
+h1{
+background-color:lavender;
+font-family:italic handwriting;
+font-size:60px;
+color:purple;
+}
+p.oblique{
+font-style:oblique;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<h1 style="color=purple;">MY FAVORITE BOOKS</h1>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="https://images-na.ssl-images-amazon.com/images/I/41fT9sjplKL._SX320_BO1,204,203,200_.jpg">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/41fT9sjplKL._SX320_BO1,204,203,200_.jpg" alt="UGLY LOVE" width="600" height="400">
+  </a>
+  <div class="desc">UGLY LOVE is a book written by CALLON HOVER</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://icrrd.com/media/15-05-2021-084546the-alchemist.jpg">
+    <img src="https://icrrd.com/media/15-05-2021-084546the-alchemist.jpg" alt="THE ALCHEMIST" width="600" height="400">
+  </a>
+  <div class="desc">THE ALCHEMIST- A Fable About Following Your dream is written by PANLO COELHO</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://5.imimg.com/data5/SELLER/Default/2022/2/GT/II/PM/147304712/whatsapp-image-2022-02-20-at-5-05-39-pm-500x500.jpeg">
+    <img src="https://5.imimg.com/data5/SELLER/Default/2022/2/GT/II/PM/147304712/whatsapp-image-2022-02-20-at-5-05-39-pm-500x500.jpeg" alt="THE PSYCHOLOGY OF MONEY" width="600" height="400">
+  </a>
+  <div class="desc">THE PSYCHOLOGY OF MONEY-is a book written by MORGAN HOUSEL </div>
+</div>
+
+</body>
+</html>
+
+
